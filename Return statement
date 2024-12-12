@@ -1,0 +1,6 @@
+def square(num):
+  return num*num
+square(5)
+#return statement
+result=square(5)
+print('the square of the number is',result)
