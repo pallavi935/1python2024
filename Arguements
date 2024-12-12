@@ -1,0 +1,22 @@
+#positinal arguements
+def add(a,b):
+  return a+b
+print(add(6,9))
+#keyword arguement
+def great(name,message):
+  print(message+','+name+'!')
+great(name='alice',message='haiiii')
+#default arguement
+def greet(name,message='hello'):
+    print(message+','+name+'!')
+greet('alice',)
+greet('bob','hlo')
+#variable length statement
+def sum_numbers(*numbers):
+  return sum(numbers)
+print(sum_numbers(1,2,3,4,9))
+#varible length statement
+def sum_numbers(**numbers):
+  for key,value in numbers.items():
+    print(key,value)
+sum_numbers(name='guru',age=23,city='tumkur')
