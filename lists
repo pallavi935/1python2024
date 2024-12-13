@@ -1,0 +1,12 @@
+numbers=[1,2,3,4,5]
+mixed=['hello',5,67]
+#accesing items
+print(numbers[4])
+print(numbers[-3])
+print(mixed[2])
+print(mixed[-1])
+#modifieng items
+numbers[1]=23
+numbers
+mixed[0]='haiiii'
+mixed
